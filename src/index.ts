@@ -6,7 +6,7 @@ import recursiveReaddir from "recursive-readdir";
 import cors from "cors"; // Import cors
 
 const app = express();
-const port = 3000;
+const port = 8000;
 const git: SimpleGit = simpleGit();
 
 app.use(express.json());
